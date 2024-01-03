@@ -1,0 +1,23 @@
+plugins=(git z sudo copypath copyfile vi-mode zsh-autosuggestions zsh-syntax-highlighting you-should-use)
+fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src
+source $ZSH/oh-my-zsh.sh
+# export RANGER_LOAD_DEFAULT_RC=FALSE
+
+# 默认编辑器
+# export EDITOR=nvim
+
+alias vi="nvim"
+alias c="clear"
+alias ra="ranger"
+alias lg="lazygit"
+alias sudo="sudo "
+
+# Python虚拟环境
+# export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
+# export WORKON_HOME=~/.pyenvs
+# export VIRTUALENVWRAPPER_VIRTUALENV=~/.local/bin/virtualenv
+# if [ $(uname) = "Darwin" ]; then
+	# source virtualenvwrapper.sh
+# elif [ $(uname) = "Linux" ]; then
+	# source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
+# fi
