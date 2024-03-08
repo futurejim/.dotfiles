@@ -21,3 +21,8 @@ alias sudo="sudo "
 # elif [ $(uname) = "Linux" ]; then
 	# source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
 # fi
+
+# url=http://127.0.0.1:20171
+alias pon="export http_proxy=http://127.0.0.1:20171;export https_proxy=http://127.0.0.1:20171;export socks5_proxy=socks5://127.0.0.1:20170"
+alias poff="unset http_proxy;unset https_proxy;unset socks5_proxy"
+
